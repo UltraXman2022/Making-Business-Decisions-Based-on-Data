@@ -15,18 +15,17 @@ You'll be using the same dataset for general analytics and for A/A/B analysis. I
 
 <h2>Instructions for completing the project</h2>
 <ul><li>Step 1. Open the data file and read the general information</li></ul>
-<ul><li>Step 2. Prepare the data for analysis/li>
+<ul><li>Step 2. Prepare the data for analysis</li>
 <li>Rename the columns in a way that's convenient for you</li>
 <li>Check for missing values and data types. Correct the data if needed</li>
 <li>Add a date and time column and a separate column for dates</li></ul>
-
-Step 3. Study and check the data
-How many events are in the logs?
-How many users are in the logs?
-What's the average number of events per user?
-What period of time does the data cover? Find the maximum and the minimum date. Plot a histogram by date and time. Can you be sure that you have equally complete data for the entire period? Older events could end up in some users' logs for technical reasons, and this could skew the overall picture. Find the moment at which the data starts to be complete and ignore the earlier section. What period does the data actually represent?
-Did you lose many events and users when excluding the older data?
-Make sure you have users from all three experimental groups.</li>
+<ul><li>Step 3. Study and check the data</li>
+<li>How many events are in the logs?</li>
+<li>How many users are in the logs?</li>
+<li>What's the average number of events per user?</li>
+<li>What period of time does the data cover? Find the maximum and the minimum date. Plot a histogram by date and time. Can you be sure that you have equally complete data for the entire period? Older events could end up in some users' logs for technical reasons, and this could skew the overall picture. Find the moment at which the data starts to be complete and ignore the earlier section. What period does the data actually represent?</li>
+<li>Did you lose many events and users when excluding the older data?</li>
+<li>Make sure you have users from all three experimental groups.</li></ul>
 Step 4. Study the event funnel
 See what events are in the logs and their frequency of occurrence. Sort them by frequency.
 Find the number of users who performed each of these actions. Sort the events by the number of users. Calculate the proportion of users who performed the action at least once.
