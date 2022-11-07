@@ -16,11 +16,11 @@ You'll be using the same dataset for general analytics and for A/A/B analysis. I
 <h2>Instructions for completing the project</h2>
 Step 1. Open the data file and read the general information
 Step 2. Prepare the data for analysis
-<ul><li><li>Rename the columns in a way that's convenient for you</li>
+<ul><li>Rename the columns in a way that's convenient for you</li>
 <li>Check for missing values and data types. Correct the data if needed</li>
 <li>Add a date and time column and a separate column for dates</li></ul></li></ul>
 Step 3. Study and check the data</li>
-<ul><li><li>How many events are in the logs?</li>
+<ul><li>How many events are in the logs?</li>
 <li>How many users are in the logs?</li>
 <li>What's the average number of events per user?</li>
 <li>What period of time does the data cover? Find the maximum and the minimum date. Plot a histogram by date and time. Can you be sure that you have equally complete data for the entire period? Older events could end up in some users' logs for technical reasons, and this could skew the overall picture. Find the moment at which the data starts to be complete and ignore the earlier section. What period does the data actually represent?</li>
