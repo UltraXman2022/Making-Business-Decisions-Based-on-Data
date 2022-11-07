@@ -25,14 +25,15 @@ Step 3. Study and check the data</li>
 <li>What's the average number of events per user?</li>
 <li>What period of time does the data cover? Find the maximum and the minimum date. Plot a histogram by date and time. Can you be sure that you have equally complete data for the entire period? Older events could end up in some users' logs for technical reasons, and this could skew the overall picture. Find the moment at which the data starts to be complete and ignore the earlier section. What period does the data actually represent?</li>
 <li>Did you lose many events and users when excluding the older data?</li>
-<li>Make sure you have users from all three experimental groups.</li></ul>
+<li>Make sure you have users from all three experimental groups.</li></ul><br>
 Step 4. Study the event funnel
-See what events are in the logs and their frequency of occurrence. Sort them by frequency.
-Find the number of users who performed each of these actions. Sort the events by the number of users. Calculate the proportion of users who performed the action at least once.
-In what order do you think the actions took place. Are all of them part of a single sequence? You don't need to take them into account when calculating the funnel.
-Use the event funnel to find the share of users that proceed from each stage to the next. (For instance, for the sequence of events A → B → C, calculate the ratio of users at stage B to the number of users at stage A and the ratio of users at stage C to the number at stage B.)
-At what stage do you lose the most users?
-What share of users make the entire journey from their first event to payment?</li>
+<ul><li>See what events are in the logs and their frequency of occurrence. Sort them by frequency.</li>
+<li>Find the number of users who performed each of these actions. Sort the events by the number of users. Calculate the proportion of users who performed the action at least once.</li>
+<li>In what order do you think the actions took place. Are all of them part of a single sequence?</li> 
+<li>You don't need to take them into account when calculating the funnel.</li>
+<li>Use the event funnel to find the share of users that proceed from each stage to the next. (For instance, for the sequence of events A → B → C, calculate the ratio of users at stage B to the number of users at stage A and the ratio of users at stage C to the number at stage B.)</li>
+<li>At what stage do you lose the most users?</li>
+<li>What share of users make the entire journey from their first event to payment?</li></ul>
 Step 5. Study the results of the experiment
 How many users are there in each group?
 We have two control groups in the A/A test, where we check our mechanisms and calculations. See if there is a statistically significant difference between samples 246 and 247.
