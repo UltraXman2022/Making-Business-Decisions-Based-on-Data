@@ -16,9 +16,9 @@ You'll be using the same dataset for general analytics and for A/A/B analysis. I
 <h2>Instructions for completing the project</h2>
 <ul><li>Step 1. Open the data file and read the general information</li></ul>
 <ul><li>Step 2. Prepare the data for analysis</li>
-<li>Rename the columns in a way that's convenient for you</li>
+<ul><li><li>Rename the columns in a way that's convenient for you</li>
 <li>Check for missing values and data types. Correct the data if needed</li>
-<li>Add a date and time column and a separate column for dates</li></ul>
+<li>Add a date and time column and a separate column for dates</li></ul></li></ul>
 <ul><li>Step 3. Study and check the data</li>
 <li>How many events are in the logs?</li>
 <li>How many users are in the logs?</li>
