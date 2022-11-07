@@ -14,7 +14,7 @@ You'll be using the same dataset for general analytics and for A/A/B analysis. I
 <li>ExpId — experiment number: 246 and 247 are the control groups, 248 is the test group</li></ul>
 
 <h2>Instructions for completing the project</h2>
-<ul><li>Step 1. Open the data file and read the general information</li>
+<ul><li>Step 1. Open the data file and read the general information</li></ul>
 <ul><li>Step 2. Prepare the data for analysis/li>
 <li>Rename the columns in a way that's convenient for you</li>
 <li>Check for missing values and data types. Correct the data if needed</li>
