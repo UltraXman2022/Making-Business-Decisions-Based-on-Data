@@ -25,7 +25,7 @@ Step 3. Study and check the data</li>
 <li>What's the average number of events per user?</li>
 <li>What period of time does the data cover? Find the maximum and the minimum date. Plot a histogram by date and time. Can you be sure that you have equally complete data for the entire period? Older events could end up in some users' logs for technical reasons, and this could skew the overall picture. Find the moment at which the data starts to be complete and ignore the earlier section. What period does the data actually represent?</li>
 <li>Did you lose many events and users when excluding the older data?</li>
-<li>Make sure you have users from all three experimental groups.</li></ul><br>
+<li>Make sure you have users from all three experimental groups.</li></ul> 
 Step 4. Study the event funnel
 <ul><li>See what events are in the logs and their frequency of occurrence. Sort them by frequency.</li>
 <li>Find the number of users who performed each of these actions. Sort the events by the number of users. Calculate the proportion of users who performed the action at least once.</li>
@@ -35,8 +35,8 @@ Step 4. Study the event funnel
 <li>At what stage do you lose the most users?</li>
 <li>What share of users make the entire journey from their first event to payment?</li></ul>
 Step 5. Study the results of the experiment
-How many users are there in each group?
-We have two control groups in the A/A test, where we check our mechanisms and calculations. See if there is a statistically significant difference between samples 246 and 247.
-Select the most popular event. In each of the control groups, find the number of users who performed this action. Find their share. Check whether the difference between the groups is statistically significant. Repeat the procedure for all other events (it will save time if you create a special function for this test). Can you confirm that the groups were split properly?
-Do the same thing for the group with altered fonts. Compare the results with those of each of the control groups for each event in isolation. Compare the results with the combined results for the control groups. What conclusions can you draw from the experiment?
-What significance level have you set to test the statistical hypotheses mentioned above? Calculate how many statistical hypothesis tests you carried out. With a statistical significance level of 0.1, one in 10 results could be false. What should the significance level be? If you want to change it, run through the previous steps again and check your conclusions.
+<ul><li>How many users are there in each group?
+<li>We have two control groups in the A/A test, where we check our mechanisms and calculations. See if there is a statistically significant difference between samples 246 and 247.
+<li>Select the most popular event. In each of the control groups, find the number of users who performed this action. Find their share. Check whether the difference between the groups is statistically significant. Repeat the procedure for all other events (it will save time if you create a special function for this test). Can you <li>confirm that the groups were split properly?</li>
+<li>Do the same thing for the group with altered fonts. Compare the results with those of each of the control groups for each event in isolation. Compare the results with the combined results for the control groups. What conclusions can you draw from the experiment?</li>
+<li>What significance level have you set to test the statistical hypotheses mentioned above? Calculate how many statistical hypothesis tests you carried out. With a statistical significance level of 0.1, one in 10 results could be false. What should the significance level be? If you want to change it, run through the previous steps again and check your conclusions.</li></ul>
