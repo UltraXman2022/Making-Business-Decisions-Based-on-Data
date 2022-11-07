@@ -14,11 +14,11 @@ You'll be using the same dataset for general analytics and for A/A/B analysis. I
 <li>ExpId — experiment number: 246 and 247 are the control groups, 248 is the test group</li></ul>
 
 <h2>Instructions for completing the project</h2>
-Step 1. Open the data file and read the general information<br>
+Step 1. Open the data file and read the general information<br><br>
 Step 2. Prepare the data for analysis
 <ul><li>Rename the columns in a way that's convenient for you</li>
 <li>Check for missing values and data types. Correct the data if needed</li>
-<li>Add a date and time column and a separate column for dates</li></ul></li></ul><br>
+<li>Add a date and time column and a separate column for dates</li></ul></li></ul>
 Step 3. Study and check the data</li>
 <ul><li>How many events are in the logs?</li>
 <li>How many users are in the logs?</li>
